@@ -5,7 +5,8 @@ PCB for MQTT projects. Sensor, I2C screen, rotary encoder input, and buck conver
 
 Three and a half example projects are shown using this PCB: 
 1.1) WiFi clock  
-1.2) Basic dumb clock  
+1.2) Basic dumb clock
+1.3) Countdown Timer
 2.0) Weather station with terminal-style display  
 3.0) Current (120V AC) probe monitor over MQTT  
 
@@ -30,6 +31,12 @@ UI Flow:
 BOOT → SET HOURS → SET MINUTES → SET COLOR → RUN  
 While in RUN → (press) BRIGHTNESS → Return  
 Long press resets clock to 12:00  
+
+## 1.3 Countdown Timer
+Task Master style countdown timer. 
+UI Flow:
+BOOT → brightness adjust + pulsing 00:00 →press [set min] press→ [set hr] →press [start]
+Time starts out green color and gradually changes to red as 00:00 time approaches.
 
 ## 2.0 Weather Station
 <img width="1637" height="855" alt="P1130031" src="https://github.com/user-attachments/assets/17bc18bb-709e-4e4e-b68e-8e1ce07c39ce" /> <br>
