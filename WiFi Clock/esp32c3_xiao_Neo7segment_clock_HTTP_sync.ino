@@ -33,8 +33,8 @@ the esp8266 is to be avoided.
 Adafruit_NeoPixel pixels(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 // ================= Wi-Fi ==========================
-const char* ssid = "CMU-DEVICE";
-const char* password = "";
+const char* ssid = "";  // your SSID
+const char* password = "";  // your password
 
 // ================= Clock Settings =================
 bool use24HourFormat = false;
