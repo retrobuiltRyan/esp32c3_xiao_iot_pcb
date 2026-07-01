@@ -63,7 +63,7 @@ Two contactless probes (current clamp) monitor current draw (0–10A) of both ap
 | BZ1 | Buzzer_5V | 1 | |
 | C1, C3, C4, C5, C6, C8, C10 | 0.1uF 50V | 7 | 1276-1068-1-ND |
 | C2, C7, C9, C11 | 0.22uF 50V CER | 4 | 445-2283-1-ND |
-| D1 | WS2812B | 1 | [aliExpress](https://www.aliexpress.us/item/3256802466699315.html) |
+| D1 | WS2812B | 1 | [aliexpress](https://www.aliexpress.us/item/3256802466699315.html) |
 | D5, D6, D7 | LED | 3 | 1080-1419-1-ND |
 | D8 | D | 1 | S5AC-FDICT-ND |
 | D9 | SMF15A | 1 | SMF15A-E3-08CT-ND |
@@ -81,7 +81,7 @@ Two contactless probes (current clamp) monitor current draw (0–10A) of both ap
 | RN4 | 200 array | 1 | CAY16-201J4LFCT-ND |
 | SW1 | RotaryEncoder_Switch_MP | 1 | PEC11R-4220F-S0024-ND |
 | U1 | MAX40200AUK | 1 | 175-MAX40203AUK+TCT-ND |
-| U2 | MP1584_Buck | 1 |[aliExpress](https://www.aliexpress.us/item/3256805684077964.html) |
+| U2 | MP1584_Buck | 1 |[aliexpress](https://www.aliexpress.us/item/3256805684077964.html) |
 | U3 | L7805 | 1 | 497-7255-1-ND |
 | U7 | ESP32C3 | 1 | 1597-113991054-ND |
 | U8 | UCC27511ADBV | 1 | 296-49474-1-ND |
