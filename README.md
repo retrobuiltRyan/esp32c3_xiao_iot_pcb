@@ -1,14 +1,25 @@
 # esp32c3_xiao_iot_pcb
 PCB for MQTT projects. Sensor, I2C screen, rotary encoder input, and buck converter breakout.
 
-<img width="1876" height="705" alt="PCB" src="https://github.com/user-attachments/assets/1a4ffd75-a3f0-4bc4-aa0d-190ac4781f29" />
+| Project Difficulty | Rating |
+|----------|--------|
+| **Hardware Difficulty** | ●● Easy |
+| **Software Complexity** | ●● Easy? | 
 
-Three and a half example projects are shown using this PCB: 
-1.1) WiFi clock  
-1.2) Basic dumb clock
-1.3) Countdown Timer
-2.0) Weather station with terminal-style display  
-3.0) Current (120V AC) probe monitor over MQTT  
+<img width="1876" height="705" alt="PCB" src="https://github.com/user-attachments/assets/1a4ffd75-a3f0-4bc4-aa0d-190ac4781f29" /> <br>
+This is the ~$5 [ESP32c3 XIAO microcontroller](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880) (with its antenna on the left) variant.
+
+<img width="1919" height="570" alt="P1130036" src="https://github.com/user-attachments/assets/a89cdde8-1319-409d-ba4b-bf4b4098ede6" />
+
+### Example Projects
+
+Three-ish example projects are shown using this PCB:
+
+- 1.1 – WiFi Clock
+- 1.2 – Basic "Dumb" Clock
+- 1.3 – Countdown Timer
+- 2.0 – Weather Station with Terminal-Style Display
+- 3.0 – Current (120V AC) Probe Monitor over MQTT
 
 ## 1.1 WiFi Clock
 <img width="1024" height="576" alt="P1130023" src="https://github.com/user-attachments/assets/5e21adeb-c497-4adb-8a76-c49935571382" /> <br>
