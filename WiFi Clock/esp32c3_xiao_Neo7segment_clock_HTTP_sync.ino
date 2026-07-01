@@ -1,3 +1,5 @@
+
+```cpp
 /*
 ESP32-C3 XIAO NeoPixel Clock (HTTP Time Sync with Manual UTC + DST Handling)
 
@@ -333,3 +335,4 @@ void loop() {
 
   showNumber(display, blink, color);
 }
+```
