@@ -52,12 +52,7 @@ Time starts out green color and gradually changes to red as 00:00 time approache
 ## 2.0 Weather Station
 <img width="1637" height="855" alt="P1130031" src="https://github.com/user-attachments/assets/17bc18bb-709e-4e4e-b68e-8e1ce07c39ce" /> <br>
 
-Calls API: https://api.weather.gov/points/40.4406,-79.9959. The lat and long point to Pittsburgh, PA. This is a free government service available in the USA only.  
-
-Then grabs weather forecast data from https://api.weather.gov/gridpoints/PBZ/78,66/forecast. A bunch of forecast data is returned in JSON text format.  
-
-Code then parses only the first five 'periods' to save SRAM and prints over serial (for debug) and OLED in a terminal-style display using this [2.4 inch OLED screen](https://www.aliexpress.us/item/3256805914521312.html).  
-
+Calls API: https://api.weather.gov/points/40.4406,-79.9959. Then grabs weather forecast data from https://api.weather.gov/gridpoints/PBZ/78,66/forecast. A bunch of forecast data is returned in JSON text format.  The lat and long point to Pittsburgh, PA, which can be changed. This weather API is a free government service available in the USA only, one benefit is no need for API key. Code then parses only the first five forecast 'periods' to save SRAM and prints over serial (for debug) and to OLED in a terminal-style display using this [2.4 inch OLED screen](https://www.aliexpress.us/item/3256805914521312.html).  
 Forecast updates every hour. 3D printed body is stylized as a classic Mac if it was extra wide.  
 
 ## 3.0 Current Probe Monitor over MQTT
