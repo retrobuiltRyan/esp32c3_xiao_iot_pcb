@@ -1,5 +1,5 @@
 # esp32c3_xiao_iot_pcb
-PCB for MQTT projects. Sensor, I2C screen, rotary encoder input, and buck converter breakout.
+PCB for MQTT projects. Sensor, I2C screen, rotary encoder input, RGB LEDs, and buck converter breakout for the ESP32 C3 XIAO dev board.
 
 | Project Difficulty | Rating |
 |----------|--------|
