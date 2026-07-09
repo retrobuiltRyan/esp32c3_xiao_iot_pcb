@@ -335,7 +335,7 @@ void get_SHT45_data() {
   oled.print(humid); oled.print(" % H");
   oled.setCursorXY(0,50); 
   oled.print("P1:"); oled.print(probe1,2); oled.print("A  ");
-  oled.print("P2:"); oled.print(probe1,2); oled.print("A");
+  oled.print("P2:"); oled.print(probe2,2); oled.print("A");
   oled.update();
 }
 
